@@ -15,6 +15,7 @@ namespace Tarea2
             this.alturaRectangulo = alturaRectangulo;
         }
 
+        public int CalcularArea()
         {
             return baseRectangulo * alturaRectangulo;
         }
